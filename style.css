@@ -9,10 +9,17 @@ body {
 }
 
 #timer {
+    display: flex;
     font-size: 4em;
     font-weight: bold;
 }
 
-#timer span {
-    padding: 0 5px;
+.time-section {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.label {
+    font-size: 0.25em;
+    font-weight: normal;
 }
